@@ -168,7 +168,6 @@ export default function PropertyDetailPage({
               <p><MapPin size={14} /> {prop.location}</p>
               <div className="detail-mobile-specs">
                 <span><Bed size={14} /> {prop.beds}</span>
-                <span><Bath size={14} /> {prop.baths}</span>
                 <span><Maximize2 size={14} /> {prop.area}</span>
               </div>
             </div>
@@ -278,7 +277,6 @@ export default function PropertyDetailPage({
                   </select>
                   <ul className="floor-plan-list">
                     <li><strong>3</strong> Bedrooms</li>
-                    <li><strong>3</strong> Bathrooms</li>
                     <li><strong>1</strong> Living Room</li>
                     <li><strong>1</strong> Kitchen</li>
                     <li><strong>2</strong> Balconies</li>
@@ -366,7 +364,6 @@ export default function PropertyDetailPage({
                 <p><MapPin size={14} /> {prop.location}</p>
                 <div className="detail-sidebar-specs">
                   <span><Bed size={16} /> {prop.beds}</span>
-                  <span><Bath size={16} /> {prop.baths}</span>
                   <span><Maximize2 size={16} /> {prop.area}</span>
                 </div>
               </div>

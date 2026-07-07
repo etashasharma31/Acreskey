@@ -1,4 +1,4 @@
-﻿import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { 
   Key, 
   Search, 
@@ -1347,7 +1347,6 @@ function App() {
 
                       <div className="preview-specs">
                         <div className="spec-item"><Bed size={16} /> 4 Beds</div>
-                        <div className="spec-item"><Bath size={16} /> 5 Baths</div>
                         <div className="spec-item"><Maximize2 size={16} /> 3200 Sq. Ft.</div>
                       </div>
 
@@ -1448,7 +1447,6 @@ function App() {
 
                       <div className="property-specs">
                         <span className="spec-item"><Bed size={14} /> {prop.beds}</span>
-                        <span className="spec-item"><Bath size={14} /> {prop.baths}</span>
                         <span className="spec-item"><Maximize2 size={14} /> {prop.area}</span>
                       </div>
 
@@ -2160,7 +2158,6 @@ function App() {
 
                           <div className="property-specs">
                             <span className="spec-item"><Bed size={14} /> {prop.beds}</span>
-                            <span className="spec-item"><Bath size={14} /> {prop.baths}</span>
                             <span className="spec-item"><Maximize2 size={14} /> {prop.area}</span>
                           </div>
 
@@ -2627,7 +2624,6 @@ function App() {
 
                           <div className="property-specs">
                             <span className="spec-item"><Bed size={14} /> {prop.beds}</span>
-                            <span className="spec-item"><Bath size={14} /> {prop.baths}</span>
                             <span className="spec-item"><Maximize2 size={14} /> {prop.area}</span>
                             <span className="furnishing-badge" style={{ marginLeft: '4px' }}>{prop.furnishing}</span>
                           </div>

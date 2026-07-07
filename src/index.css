@@ -7859,3 +7859,90 @@ img, video, iframe {
   max-width: 100%;
   height: auto;
 }
+
+/* --- Services Page Mobile Fixes --- */
+@media (max-width: 768px) {
+  .services-hero-new {
+    padding: 60px 0 40px !important;
+  }
+  .services-hero-title-new {
+    font-size: 32px !important;
+  }
+  .services-hero-subtitle-new {
+    font-size: 16px !important;
+  }
+  .services-hero-stats {
+    gap: 20px !important;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .services-page-wrapper .services-grid {
+    grid-template-columns: 1fr !important;
+    gap: 16px !important;
+  }
+  .service-card-detailed {
+    padding: 24px 20px !important;
+  }
+}
+
+/* --- Fix for Property Grid Clipping on Zoom/Mobile --- */
+@media (max-width: 768px) {
+  .featured-grid,
+  .buy-listings-grid:not(.buy-listings-grid--list),
+  .projects-grid {
+    width: 100% !important;
+    max-width: 100vw !important;
+    box-sizing: border-box !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  
+  .featured-grid > *,
+  .buy-listings-grid:not(.buy-listings-grid--list) > *,
+  .projects-grid > * {
+    min-width: 0 !important;
+    max-width: 100% !important;
+  }
+}
+
+/* --- Fix for Results Actions Bar on Mobile --- */
+@media (max-width: 768px) {
+  .results-header-row {
+    margin-bottom: 16px !important;
+    gap: 12px !important;
+  }
+  
+  .results-actions-right {
+    flex-wrap: wrap !important;
+    gap: 8px !important;
+    justify-content: flex-start !important;
+  }
+  
+  .mobile-filter-toggle-btn {
+    padding: 6px 12px !important;
+    font-size: 12px !important;
+    height: 32px;
+  }
+  
+  .view-toggle-group button {
+    width: 32px !important;
+    height: 32px !important;
+  }
+  
+  .sort-select-wrapper {
+    gap: 6px !important;
+  }
+  
+  .sort-select-wrapper span {
+    font-size: 12px !important;
+  }
+  
+  .sort-select-dropdown {
+    padding: 6px 12px !important;
+    font-size: 12px !important;
+    height: 32px;
+  }
+  
+  .results-count {
+    font-size: 13px !important;
+  }
+}
